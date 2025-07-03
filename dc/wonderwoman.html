@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeroVerse - Where Legends Begin</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <navbar
+      class="bg-violet-950 h-24 w-full flex justify-between items-center px-10"
+    >
+      <h2 class="text-white text-5xl flex">
+        Hero<span class="items-center flex px-0.5"
+          ><img
+            src="/assets/star.png"
+            alt="star-icon"
+            width="20px"
+            height="20px"
+            class="filter brightness-[200%] contrast-[150%]" /></span
+        >Verse
+      </h2>
+
+      <!-- Hamburger Icon (mobile only) -->
+      <button class="hamburger flex flex-col gap-y-2 md:hidden z-50">
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul
+        class="nav-list hidden flex-col absolute top-20 left-0 w-full bg-violet-950 text-white text-2xl p-6 pl-10 gap-4 z-40 sm:top-24 sm:pl-10 md:flex md:flex-row md:gap-6 md:items-center md:bg-transparent md:p-0 md:text-2xl md:static md:w-auto md:ml-auto"
+      >
+        <li><a href="../index.html">Home</a></li>
+        <li class="hover:text-red-600">
+          <a href="../marvel/marvel.html">Marvel</a>
+        </li>
+        <li class="hover:text-blue-600"><a href="../dc/dc.html">DC</a></li>
+        <li><a href="../heroes.html">All Heroes</a></li>
+      </ul>
+    </navbar>
+
+    <main>
+      <div class="flex flex-row bg-blue-900 justify-center py-20">
+        <div class="block sm:flex">
+          <div class="flex justify-center items-center">
+            <img
+              class="w-[220px] h-[320px] sm:w-[280px] sm:h-[400px] border-2 border-black rounded-4xl"
+              src="/assets/dc/wonderwoman2.webp"
+              alt="wonderwoman"
+            />
+          </div>
+          <div class="text-center sm:text-left sm:ml-15">
+            <div class="text-center">
+              <h1 class="text-white text-5xl mb-2 mt-10 sm:mt-0">
+                Wonder Woman
+              </h1>
+              <h2 class="text-white text-3xl mb-4">Real Name: Diana Prince</h2>
+              <h4 class="text-white text-xl mb-4">
+                Created by: William Moulton Marston
+              </h4>
+              <h4 class="text-white text-xl mb-4">
+                First Appearance: All Star Comics #8 (1941)
+              </h4>
+            </div>
+
+            <div class="bg-black rounded-2xl mt-5 mb-5 p-4">
+              <h3 class="text-2xl text-white text-center underline">Origin</h3>
+              <p class="text-white text-lg mb-4 text-center">
+                Born on the island of Themyscira, Diana is an Amazon warrior<br />
+                blessed by the gods. Leaving her homeland to defend the
+                world,<br />
+                she became Wonder Woman — champion of truth, peace, and justice.
+              </p>
+            </div>
+
+            <div class="text-center bg-violet-950 rounded-2xl p-4">
+              <h3 class="text-white text-2xl underline">Powers & Abilities</h3>
+              <ul class="list-none">
+                <li class="text-white text-xl">
+                  🗡️ Super Strength & Combat Skills
+                </li>
+                <li class="text-white text-xl">
+                  🛡️ Invulnerability & Accelerated Healing
+                </li>
+                <li class="text-white text-xl">🕊️ Flight</li>
+                <li class="text-white text-xl">💛 Lasso of Truth</li>
+                <li class="text-white text-xl">
+                  🛡️ Magical Bracelets (deflect attacks)
+                </li>
+                <li class="text-white text-xl">
+                  ⚔️ Skilled with Sword & Shield
+                </li>
+                <li class="text-white text-xl">
+                  🧠 Divine Wisdom & Leadership
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-center items-center gap-6 bg-blue-900 pb-10 -mt-10 sm:-mt-10"
+      >
+        <button
+          class="bg-violet-950 text-white text-lg my-4 py-2 px-6 rounded-md border-black border-2 hover:bg-violet-900 cursor-pointer"
+        >
+          <a href="../dc/batman.html">Previous</a>
+        </button>
+        <button
+          class="bg-violet-950 text-white text-lg my-4 py-2 px-6 rounded-md border-black border-2 hover:bg-violet-900 cursor-pointer"
+        >
+          <a href="greenlantern.html">Next</a>
+        </button>
+      </div>
+    </main>
+
+   <footer
+      class="bg-violet-950 min-h-24 w-full text-center py-5 px-10 text-white flex flex-col sm:py-5 sm:flex-col md:flex-row justify-between items-center"
+    >
+      <p class="text-lg">© 2025 Hero★Verse</p>
+      <p class="text-lg pt-4 md:pt-0">
+        Not affiliated with Marvel or DC. All characters belong to their
+        respective owners.
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

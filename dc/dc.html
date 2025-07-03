@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeroVerse - Where Legends Begin</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <navbar
+      class="bg-violet-950 h-24 w-full flex justify-between items-center px-10"
+    >
+      <h2 class="text-white text-5xl flex">
+        Hero<span class="items-center flex px-0.5"
+          ><img
+            src="/assets/star.png"
+            alt="star-icon"
+            width="20px"
+            height="20px"
+            class="filter brightness-[200%] contrast-[150%]" /></span
+        >Verse
+      </h2>
+
+      <!-- Hamburger Icon (mobile only) -->
+      <button class="hamburger flex flex-col gap-y-2 md:hidden z-50">
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+        <span class="bg-white h-1 w-8 rounded-md"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul
+        class="nav-list hidden flex-col absolute top-20 left-0 w-full bg-violet-950 text-white text-2xl p-6 pl-10 gap-4 z-40 sm:top-24 sm:pl-10 md:flex md:flex-row md:gap-6 md:items-center md:bg-transparent md:p-0 md:text-2xl md:static md:w-auto md:ml-auto"
+      >
+        <li><a href="../index.html">Home</a></li>
+        <li class="hover:text-red-600">
+          <a href="../marvel/marvel.html">Marvel</a>
+        </li>
+        <li class="hover:text-blue-600"><a href="../dc/dc.html">DC</a></li>
+        <li><a href="../heroes.html">All Heroes</a></li>
+      </ul>
+    </navbar>
+
+    <main>
+      <div class="bg-[url(/assets/dc/dc-wp.jpg)] bg-cover w-full sm:bg-center">
+        <div
+          class="inset-0 bg-black/80 w-full flex flex-col justify-center items-center py-10"
+        >
+          <img
+            src="/assets/dc/dc.png"
+            alt="dc logo"
+            class="max-h-30 sm:max-h-32"
+          />
+          <hr class="bg-white w-10 h-1 rounded-md my-4" />
+          <p class="text-white text-md text-center mb-6 sm:text-lg md:text-xl">
+            The DC Universe, first introduced in 1938 with Superman,<br />
+            is a legendary realm of iconic heroes, dark villains, and mythic
+            battles.<br />
+            It explores justice, identity, and power across Earth, space, and
+            multiverses.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div
+        class="min-h-50 mt-20 grid grid-cols-1 pb-20 sm:grid-cols-2 gap-8 md:grid-cols-4"
+      >
+        <!-- Card 1 -->
+        <div
+          class="w-50 max-w-sm bg-blue-900 border-2 border-black rounded-3xl shadow-2xl flex flex-col justify-center items-center overflow-hidden mx-auto"
+        >
+          <img
+            src="/assets/dc/superman3.jpg"
+            alt="superman"
+            class="h-60 sm:h-70 w-full border-b-2 border-black object-cover"
+          />
+          <p class="text-white text-3xl pt-4">Superman</p>
+          <button
+            class="bg-violet-950 text-white text-lg my-4 py-2 px-4 rounded-md border-2 border-black hover:bg-violet-900 cursor-pointer"
+          >
+            <a href="superman.html">View Details</a>
+          </button>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="w-50 max-w-sm bg-blue-900 border-2 border-black rounded-3xl shadow-2xl flex flex-col justify-center items-center overflow-hidden mx-auto"
+        >
+          <img
+            src="/assets/dc/batman3.jpg"
+            alt="batman"
+            class="h-60 sm:h-70 w-full border-b-2 border-black object-cover"
+          />
+          <p class="text-white text-3xl pt-4">Batman</p>
+          <button
+            class="bg-violet-950 text-white text-lg my-4 py-2 px-4 rounded-md border-2 border-black hover:bg-violet-900 cursor-pointer"
+          >
+            <a href="batman.html">View Details</a>
+          </button>
+        </div>
+
+        <div
+          class="w-50 max-w-sm bg-blue-900 border-2 border-black rounded-3xl shadow-2xl flex flex-col justify-center items-center overflow-hidden mx-auto"
+        >
+          <img
+            src="/assets/dc/wonderwoman.jpg"
+            alt="wonderwoman"
+            class="h-60 sm:h-70 w-full border-b-2 border-black object-cover"
+          />
+          <p class="text-white text-3xl pt-4">Wonder Woman</p>
+          <button
+            class="bg-violet-950 text-white text-lg my-4 py-2 px-4 rounded-md border-2 border-black hover:bg-violet-900 cursor-pointer"
+          >
+            <a href="wonderwoman.html">View Details</a>
+          </button>
+        </div>
+
+        <div
+          class="w-50 max-w-sm bg-blue-900 border-2 border-black rounded-3xl shadow-2xl flex flex-col justify-center items-center overflow-hidden mx-auto"
+        >
+          <img
+            src="/assets/dc/greenlantern.jpg"
+            alt="greenlantern"
+            class="h-60 sm:h-70 w-full border-b-2 border-black object-cover"
+          />
+          <p class="text-white text-3xl pt-4">Green Lantern</p>
+          <button
+            class="bg-violet-950 text-white text-lg my-4 py-2 px-4 rounded-md border-2 border-black hover:bg-violet-900 cursor-pointer"
+          >
+            <a href="greenlantern.html">View Details</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex justify-center items-center -mt-10 mb-10">
+        <button
+          class="bg-violet-950 text-white text-lg my-4 py-2 px-6 rounded-md border-2 border-black hover:bg-violet-900 cursor-pointer"
+        >
+          <a href="../index.html">Go Back</a>
+        </button>
+      </div>
+    </section>
+
+    <footer
+      class="bg-violet-950 min-h-24 w-full text-center py-5 px-10 text-white flex flex-col sm:py-5 sm:flex-col md:flex-row justify-between items-center"
+    >
+      <p class="text-lg">© 2025 Hero★Verse</p>
+      <p class="text-lg pt-4 md:pt-0">
+        Not affiliated with Marvel or DC. All characters belong to their
+        respective owners.
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
