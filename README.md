@@ -19,7 +19,7 @@ Used AI tools (e.g., ChatGPT) for reference and understanding during development
 ## 🛠️ Tech Stack
 
 - **HTML5**
-- **Tailwind CSS**
+- **Tailwind CSS (via CDN)**
 - **JavaScript (Vanilla)**
 - **Git & GitHub** for version control and hosting
 
