@@ -8,11 +8,9 @@ A fan page dedicated to the vast and thrilling universe of fictional comic book 
 
 ## 📝 Disclaimer
 
-**Hero★Verse** is a non-commercial fan project created for educational and entertainment purposes only.
-
-**Not affiliated with or endorsed by Marvel, DC Comics, or any of their subsidiaries.**
-
-**All characters, names, images, and logos are the intellectual property of their respective owners.**
+- **Hero★Verse** is a non-commercial fan project created for educational and entertainment purposes only.
+- **Not affiliated with or endorsed by Marvel, DC Comics, or any of their subsidiaries.**
+- **All characters, names, images, and logos are the intellectual property of their respective owners.**
 
 ## 🤖 AI Contribution Note
 
